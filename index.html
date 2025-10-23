@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ศูนย์รวมแอพ</title>
+  <meta name="theme-color" content="#f6f8ff">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-bar" role="banner">
+    <h1 id="title">ศูนย์รวมแอพ</h1>
+  </header>
+
+  <main id="view" role="main" tabindex="-1">
+    <section id="home" class="view active" aria-label="รายการแอพ">
+      <div class="hint">เลือกหมวด (NPR/AMBU) หรือพิมพ์ค้นหา แล้วแตะไอคอนเพื่อเปิดในแท็บใหม่ทันที</div>
+
+      <div class="filters" role="tablist" aria-label="ตัวกรองหมวด">
+        <button class="chip active" role="tab" aria-selected="true" data-cat="ALL">ทั้งหมด</button>
+        <button class="chip" role="tab" aria-selected="false" data-cat="NPR">NPR</button>
+        <button class="chip" role="tab" aria-selected="false" data-cat="AMBU">AMBU</button>
+      </div>
+
+      <div class="search-row" role="search">
+        <div class="combo" id="appCombo" aria-haspopup="listbox" aria-owns="combo-list" aria-expanded="false">
+          <input id="comboInput" class="combo-input" type="text" placeholder="พิมพ์ชื่อแอพ…" autocomplete="off" aria-autocomplete="list" aria-controls="combo-list" aria-activedescendant="">
+          <button id="comboBtn" class="combo-btn" aria-label="แสดงรายการทั้งหมด" title="แสดงรายการทั้งหมด">▼</button>
+          <ul id="comboList" class="combo-list" role="listbox" tabindex="-1" hidden></ul>
+        </div>
+        <button id="clearSearch" class="clear-btn" aria-label="ล้างการค้นหา">ล้าง</button>
+      </div>
+
+      <ul id="grid" class="grid" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>GitHub Pages • ธีมพาสเทล • รองรับมือถือและคอม • ไม่ตกขอบ</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "InsulinCalc",
+    "name": "โปรแกรมคำนวณจำนวนยาฉีดและเข็ม",
+    "icon": "icon-Insulin.png",
+    "url": "https://sony50369-yellow.github.io/Insulin/",
+    "category": "NPR"
+  },
+  {
+    "id": "InhalerCalc",
+    "name": "โปรแกรมคำนวณจำนวนกล่องยาพ่น",
+    "icon": "icon-Inhaler.png",
+    "url": "https://sony50369-yellow.github.io/Inhaler/",
+    "category": "NPR"
+  },
+  {
+    "id": "IV Drugs",
+    "name": "IV Drug Reference",
+    "icon": "icon-Drug.png",
+    "url": "https://sony50369-yellow.github.io/Drug/",
+    "category": "NPR"
+  },
+  {
+    "id": "Oseltamivir",
+    "name": "โปรแกรมคำนวณขนาดยา Oseltamivir",
+    "icon": "icon-Osel.png",
+    "url": "https://sony50369-yellow.github.io/Osel/",
+    "category": "NPR"
+  },
+  {
+    "id": "Speeda",
+    "name": "Rabies Planner",
+    "icon": "icon-Speeda.png",
+    "url": "https://sony50369-yellow.github.io/Speeda/",
+    "category": "NPR"
+  },
+  {
+    "id": "rtPA Dosing",
+    "name": "rt-PA / Alteplase Dosing",
+    "icon": "icon-rtpa.png",
+    "url": "https://sony50369-yellow.github.io/rtpa/",
+    "category": "NPR"
+  },
+  {
+    "id": "ยาเตรียม",
+    "name": "แอปวางแผนจ่ายยาเตรียม",
+    "icon": "icon-Yapre.png",
+    "url": "https://sony50369-yellow.github.io/Yapre/",
+    "category": "NPR"
+  },
+ {
+    "id": "DT",
+    "name": "DT Vaccine Planner",
+    "icon": "icon-192.png",
+    "url": "https://sony50369-yellow.github.io/DT/",
+    "category": "NPR"
+  },
+  {
+    "id": "HIV PED",
+    "name": "HIV Pediatric",
+    "icon": "icon-HIVPD.png",
+    "url": "https://sony50369-yellow.github.io/HIVPD/",
+    "category": "AMBU"
+  },
+  {
+    "id": "Warfarin",
+    "name": "Warfarin Sticker",
+    "icon": "icon-192.png",
+    "url": "https://apps-npr.github.io/Warfarin/",
+    "category": "AMBU"
+  }
+]
