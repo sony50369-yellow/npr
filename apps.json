@@ -68,5 +68,12 @@
     "icon": "icon-warfarin.png",
     "url": "https://apps-npr.github.io/Warfarin/",
     "category": "AMBU"
-  }
+  },
+  {
+    "id": "AmbuS",
+    "name": "AMBU Scheduler",
+    "icon": "icon-ambus.png",
+    "url": "https://apps-npr.github.io/Ambu/,
+    "category": "AMBU"
+  }  
 ]
