@@ -75,5 +75,12 @@
     "icon": "icon-ambus.png",
     "url": "https://apps-npr.github.io/Ambu/",
     "category": "AMBU"
+  },
+  {
+    "id": "Warfarin NO",
+    "name": "Warfarin Number",
+    "icon": "icon-Warno.png",
+    "url": "https://apps-npr.github.io/warno/",
+    "category": "AMBU"
   }  
 ]
