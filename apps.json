@@ -82,5 +82,12 @@
     "icon": "icon-Warno.png",
     "url": "https://apps-npr.github.io/warno/",
     "category": "AMBU"
+  },
+  {
+    "id": "PharmacyEng",
+    "name": "Pharmacy English",
+    "icon": "icon-peng.png",
+    "url": "https://github.com/apps-npr/peng/",
+    "category": "NPR"
   }  
 ]
